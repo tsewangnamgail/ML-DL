@@ -1,0 +1,32 @@
+
+You said:
+Machine Learning
+|
+|---- Supervised Learning
+|     |---- Regression
+|     |      |---- Linear Regression
+|     |      |---- Polynomial Regression
+|     |
+|     |---- Classification
+|            |---- Logistic Regression
+|            |---- Decision Trees
+|            |---- K-Nearest Neighbors (KNN)
+|            |---- Support Vector Machine (SVM)
+|
+|---- Unsupervised Learning
+|     |---- Clustering
+|     |      |---- K-Means
+|     |      |---- Hierarchical Clustering
+|     |      |---- DBSCAN
+|     |
+|     |---- Dimensionality Reduction
+|            |---- PCA (Principal Component Analysis)
+|            |---- t-SNE
+|            |---- Autoencoders
+|
+|---- Semi-Supervised Learning
+|     |---- Uses small labeled + large unlabeled datasets
+|
+|---- Reinforcement Learning
+      |---- Agent learns by interacting with environment
+      |---- Q-Learning, Deep Q-Networks (DQN)   like this for dl with all the important algorithm

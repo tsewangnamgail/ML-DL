@@ -1,0 +1,42 @@
+Deep Learning
+|
+|---- Artificial Neural Networks (ANN)
+|     |---- Feedforward Neural Networks (FNN)
+|     |---- Multilayer Perceptron (MLP)
+|
+|---- Convolutional Neural Networks (CNN)
+|     |---- LeNet
+|     |---- AlexNet
+|     |---- VGGNet
+|     |---- ResNet
+|     |---- InceptionNet
+|     |---- MobileNet
+|
+|---- Recurrent Neural Networks (RNN)
+|     |---- Vanilla RNN
+|     |---- Long Short-Term Memory (LSTM)
+|     |---- Gated Recurrent Unit (GRU)
+|     |---- Bidirectional RNN
+|
+|---- Generative Models
+|     |---- Autoencoders
+|     |      |---- Vanilla Autoencoder
+|     |      |---- Variational Autoencoder (VAE)
+|     |
+|     |---- Generative Adversarial Networks (GAN)
+|            |---- Vanilla GAN
+|            |---- DCGAN (Deep Convolutional GAN)
+|            |---- CycleGAN
+|            |---- StyleGAN
+|
+|---- Transformer-based Models
+|     |---- Self-Attention Mechanism
+|     |---- BERT (Bidirectional Encoder Representations from Transformers)
+|     |---- GPT (Generative Pretrained Transformer)
+|     |---- Vision Transformer (ViT)
+|     |---- T5, RoBERTa, XLNet
+|
+|---- Reinforcement Learning in DL (Deep RL)
+      |---- Deep Q-Networks (DQN)
+      |---- Policy Gradient Methods
+      |---- Actor-Critic Methods (A3C, DDPG, PPO)

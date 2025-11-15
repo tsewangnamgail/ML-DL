@@ -1,5 +1,3 @@
-
-You said:
 Machine Learning
 |
 |---- Supervised Learning
@@ -30,3 +28,201 @@ Machine Learning
 |---- Reinforcement Learning
       |---- Agent learns by interacting with environment
       |---- Q-Learning, Deep Q-Networks (DQN)   like this for dl with all the important algorithm
+
+
+✅ Complete scikit-learn Modules (Most Used Ones)
+Below is the full structured list of important modules in sklearn:
+
+🔵 1. sklearn.linear_model
+Models that assume a linear relationship.
+-LinearRegression
+-Ridge
+-Lasso
+-ElasticNet
+-SGDRegressor
+-SGDClassifier
+-LogisticRegression
+-Perceptron
+-PassiveAggressiveClassifier / Regressor
+-BayesianRidge
+-ARDRegression
+-RANSACRegressor
+-HuberRegressor
+-TheilSenRegressor
+
+🔵 2. sklearn.neighbors
+Based on nearest-neighbor rules.
+-KNeighborsClassifier
+-KNeighborsRegressor
+-NearestNeighbors
+-RadiusNeighborsClassifier
+-RadiusNeighborsRegressor
+-KNNImputer
+
+🔵 3. sklearn.tree
+Decision-tree–based models.
+-DecisionTreeClassifier
+-DecisionTreeRegressor
+-ExtraTreeClassifier
+-ExtraTreeRegressor
+
+🔵 4. sklearn.ensemble
+Ensemble models (multiple models combined).
+-RandomForestClassifier
+-RandomForestRegressor
+-ExtraTreesClassifier
+-ExtraTreesRegressor
+-GradientBoostingClassifier
+-GradientBoostingRegressor
+-AdaBoostClassifier
+-AdaBoostRegressor
+-BaggingClassifier
+-BaggingRegressor
+-StackingClassifier
+-StackingRegressor
+-VotingClassifier
+-VotingRegressor
+
+🔵 5. sklearn.svm
+Support Vector Machines.
+-SVC
+-SVR
+-LinearSVC
+-LinearSVR
+-NuSVC
+-NuSVR
+-OneClassSVM
+
+🔵 6. sklearn.cluster
+Clustering (unsupervised).
+-KMeans
+-MiniBatchKMeans
+-AgglomerativeClustering
+-DBSCAN
+-OPTICS
+-Birch
+-SpectralClustering
+-MeanShift
+-AffinityPropagation
+
+🔵 7. sklearn.preprocessing
+Feature preprocessing & scaling.
+-StandardScaler
+-MinMaxScaler
+-RobustScaler
+-Normalizer
+-OneHotEncoder
+-LabelEncoder
+-OrdinalEncoder
+-PolynomialFeatures
+-Binarizer
+-PowerTransformer
+-KBinsDiscretizer
+
+🔵 8. sklearn.model_selection
+Model selection, splitting, searching.
+-train_test_split
+-KFold
+-StratifiedKFold
+-GridSearchCV
+-RandomizedSearchCV
+-cross_val_score
+-validation_curve
+-learning_curve
+
+🔵 9. sklearn.metrics
+Performance evaluation metrics.
+-Classification metrics
+-accuracy_score
+-precision_score
+-recall_score
+-f1_score
+-confusion_matrix
+-classification_report
+-roc_auc_score
+-Regression metrics
+-mean_absolute_error
+-mean_squared_error
+-r2_score
+-Clustering metrics
+-silhouette_score
+-davies_bouldin_score
+
+🔵 10. sklearn.decomposition
+Dimensionality reduction.
+-PCA
+-KernelPCA
+-IncrementalPCA
+-TruncatedSVD
+-NMF (Non-negative Matrix Factorization)
+-FastICA
+
+🔵 11. sklearn.feature_extraction
+Convert text/image to structured data.
+-From text
+-CountVectorizer
+-TfidfVectorizer
+-TfidfTransformer
+-From images
+-image.PatchExtractor
+
+🔵 12. sklearn.feature_selection
+Select best features.
+-SelectKBest
+-SelectPercentile
+-RFE
+-RFECV
+-VarianceThreshold
+
+🔵 13. sklearn.naive_bayes
+Probabilistic classifiers.
+-GaussianNB
+-MultinomialNB
+-BernoulliNB
+-CategoricalNB
+-ComplementNB
+
+🔵 14. sklearn.mixture
+Mixture models.
+-GaussianMixture
+-BayesianGaussianMixture
+
+🔵 15. sklearn.manifold
+Non-linear dimensionality reduction.
+-TSNE
+-Isomap
+-LocallyLinearEmbedding
+-MDS
+-SpectralEmbedding
+
+🔵 16. sklearn.impute
+Handling missing values.
+-SimpleImputer
+-KNNImputer
+-IterativeImputer
+
+🔵 17. sklearn.pipeline
+Combine preprocessing + models.
+-Pipeline
+-make_pipeline
+
+🔵 18. sklearn.calibration
+Probability calibration.
+-CalibratedClassifierCV
+-calibration_curve
+
+🔵 19. sklearn.compose
+Column transformer utilities.
+-ColumnTransformer
+-TransformedTargetRegressor
+
+🔵 20. sklearn.datasets
+-Sample datasets.
+-load_iris
+-load_wine
+-load_breast_cancer
+-load_digits
+-load_diabetes
+-load_boston (deprecated)
+
+

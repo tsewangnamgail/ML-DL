@@ -4,35 +4,7 @@
 A complete end-to-end collection of Machine Learning (ML) and Deep Learning (DL) concepts, algorithms, code implementations, notebooks, and projects.
 This repository is designed for beginners → advanced learners preparing for placements, interviews, Kaggle, and research.
 
-📁 Project Structure
-ML-DL-Repository/
-│
-├── Machine_Learning/
-│   ├── Regression/
-│   ├── Classification/
-│   ├── Clustering/
-│   ├── Feature_Engineering/
-│   ├── Model_Selection/
-│   ├── Metrics/
-│   └── ML_Projects/
-│
-├── Deep_Learning/
-│   ├── Neural_Networks/
-│   ├── CNN/
-│   ├── RNN_LSTM_GRU/
-│   ├── Autoencoders/
-│   ├── GANs/
-│   ├── NLP/
-│   └── DL_Projects/
-│
-├── datasets/
-│
-├── requirements.txt
-│
-└── README.md
-
 **🚀 1. Machine Learning Overview**
-
 Machine Learning teaches computers to learn from data and make predictions.
 
 🔥 ML Categories
